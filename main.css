@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+body {
+    font-family: "Space Grotesk", sans-serif ;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    padding: 14px 0;
+    background-image: url(img/background.jpg);
+}
+
+header h1,
+li {
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 42px;
+    color: #541e04f1;
+}
+
+h2 {
+    background-color: #e0442158;
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    margin: 120px 0;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+    background: #83353524;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #671d1d;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container div {
+    background-color: #a3742a00;
+}
+
+#apresentacao img {
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.container p {
+    text-align: center;
+    padding: 30px 25px;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #beab85;
+    background-image: url(https://tse2.mm.bing.net/th/id/OIP.4GV4JU7TLH1MdiLyMyJATgHaEK?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p a {
+    text-decoration: none; 
+    color: #e16513;
+}
+
+p a:hover {
+    background-color: #671d1d;
+    text-decoration: none;
+}
+
+#contato img {
+    height: 30px;
+    display: inline;
+    align-items: center;
+}
+
+#contato {
+    margin-bottom: 60px;
+}
+
+footer .rodape {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #c38446ba;
+}
+
+.rodape img {
+    height: 50px;
+    display: inline;
+    align-items: end;
+    margin-right: 20px;
+}
+
+footer .rodape p {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    padding-top: 6px;
+    margin: 10px auto;
+    color: #f5f6fa;
+    font-weight: bold;
+}
